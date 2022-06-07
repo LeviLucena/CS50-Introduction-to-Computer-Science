@@ -1,23 +1,40 @@
+//Program based on Greedy Algorithm
+//Minimze the number of coins in change as much as possible
 #include <cs50.h>
 #include <stdio.h>
+#include <math.h>
 
 int main(void)
 {
-    //o valor da compra informado diretamente
-    int Valor_da_Compra = 150;
-
-    //texto exibido em tela
-    printf("o valor total da compra é %i\n", Valor_da_Compra);
-
-    //texto exibido em tela
-    printf("Informe o valor do pagamento \n");
-
-    //usuário entra com o valor x
-    int Pagamento = get_int("Pagamento: ");
-    printf("o pagamento realizado foi no valor de %i\n", Pagamento);
-
-    int Troco = Pagamento - Valor_da_Compra;
-
-    //exibe a soma dos valores fornecidos
-    printf("o troco para o cliente será no valor de %i\n", Troco);
+    int change = 0;
+    float owed;
+    //getting positive number
+    do
+    {
+        owed = get_float("Change owed: ");
+    }
+    while (owed < 0);
+    //converting the float or just my solution to deal with them
+    owed *= 100;
+    while (round(owed) >= 25)
+    {
+        owed -= 25;
+        change++;
+    }
+    while (round(owed) >= 10)
+    {
+        owed -= 10;
+        change++;
+    }
+    while (round(owed) >= 5)
+    {
+        owed -= 5;
+        change++;
+    }
+    while (round(owed) >= 1)
+    {
+        owed -= 1;
+        change++;
+    }
+    printf("%i\n", change);
 }
