@@ -1,0 +1,11 @@
+sort1 usa: ordenação por bolha
+
+Como você sabe?: Quando o arquivo é ordenado, o algoritmo leva quase o mesmo tempo que a ordenação por mesclagem, mas com os outros arquivos o tempo é muito maior.
+
+sort2 usa: Merge Sort
+
+Como você sabe?: É o mais eficiente com tempos de execução menores do que os outros além disso o tempo de execução é maior com os arquivos em ordem inversa porque o algoritmo tem que ordenar mais valores.
+
+sort3 usa: ordenação por seleção
+
+Como você sabe?: O tempo de execução deste algoritmo é idêntico, independentemente do arquivo a ser classificado, o que indica que o algoritmo realiza o mesmo número de etapas.
