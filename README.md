@@ -2,7 +2,7 @@
 
 _Course description_
 
-<p align="justify">This is CS50x , Harvard University's introduction to the intellectual enterprises of computer science 
+<p align="justify" font-size="12"><font-style:>This is CS50x , Harvard University's introduction to the intellectual enterprises of computer science 
 and the art of programming for majors and non-majors alike, with or without prior programming experience. 
 An entry-level course taught by David J. Malan, CS50x teaches students how to think algorithmically and 
 solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, 
