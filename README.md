@@ -10,5 +10,4 @@ resource management, security, software engineering, and web development. Langua
 and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, 
 forensics, and gaming. The on-campus version of CS50x , CS50, is Harvard's largest course.</p> 
 
-[^note]
-[^1]: More info: https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0_
+More info: https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0_
