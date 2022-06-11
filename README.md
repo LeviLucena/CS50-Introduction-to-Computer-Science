@@ -1,4 +1,4 @@
-# CS50-Introduction-to-Computer-Science 🎓Harvard CS50x — solutions 2021/22
+# CS50x-Introduction-to-Computer-Science 🎓Harvard CS50x — 2022
 
 _Course description_
 
