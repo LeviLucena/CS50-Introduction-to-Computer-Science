@@ -8,3 +8,4 @@ and JavaScript plus CSS and HTML. Problem sets inspired by real-world domains of
 forensics, and gaming. The on-campus version of CS50x , CS50, is Harvard's largest course.</font></p> 
 
 info: https://pll.harvard.edu/course/cs50-introduction-computer-science?delta=0
+![CS50x_Certificate](https://user-images.githubusercontent.com/34045910/173443456-5c94c569-4e21-4704-ad76-1f4ff1db4ac6.png)
